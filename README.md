@@ -1,2 +1,2 @@
-# Adminhelperahk
-Арбуз
+## Adminhelperahk
+#Методичка только для админов :)
