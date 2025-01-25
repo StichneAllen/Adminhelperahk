@@ -169,12 +169,12 @@ return
 
 !numpad3::
 SendMessage, 0x50,, 0x4190419,, A 
-SendPlay, {space}На момент слежки нарушений не заметил. {enter}
+SendPlay, {space}Нарушений не заметил. {enter}
 return
 
 !numpad4::
 SendMessage, 0x50,, 0x4190419,, A 
-SendPlay, {space}Игрок наказан. Рады помочь{!} {enter}
+SendPlay, {space}Игрок наказан. {enter}
 return
 
 !numpad6::
