@@ -1,10 +1,6 @@
 Gui, show, center h600 w800,
-; Gui, Font, S40 C000000 Bold, Arial
-; Gui, add, text, x230 y5 w850 h70 , Admin helper
-; Gui, Font, S10 C000000 Bold, Bold, Arial
-; CURSIVE
+; ------------------------------- БИНД КЛАВИШ NUMPAD (ОСНОВНОЕ)-------------------------------
 
-; ________________________________________БИНД КЛАВИШ NUMPAD (ОСНОВНОЕ)________________________________________
 Gui 1:Font, s12 c000000 Bold, Arial
 Gui 1:Add, Tab2, x10 y5 h40 w600 Buttons -Wrap, Основное|GPS|Бинды
 Gui 1:Add, GroupBox, x10 y40 w350 h210, [ Бинд клавиш NumPad ]
@@ -21,6 +17,9 @@ Gui, Add, Text, x2 x20 y185 w300 h15 , ALT + NumPad8 - Предупредить 
 Gui, Add, Text, x2 x20 y200 w300 h15 , ALT + NumPad9 - Сделать респавн всего рабочего ТС
 Gui, Add, Text, x2 x20 y215 w300 h15 , ALT + NumPad0 - Проверка на бота пройдена
 Gui, Add, Text, x2 x20 y230 w300 h15 , CTRL + NumPad0 - Проверка на бота
+
+; ------------------------------- КОМАНДЫ (ОСНОВНОЕ)-------------------------------
+
 Gui 1:Font, s12 c000000 Bold, Arial
 Gui 1:Add, GroupBox, x370 y40 w420 h330, [ Команды ]
 Gui 1:Font, s8 c000000 Bold, Arial
@@ -43,12 +42,13 @@ Gui, Add, Text, x2 x380 y290 w300 h15 , /jai - /jailtime
 Gui, Add, Text, x2 x380 y305 w300 h15 , /а31 - F3 - Эвакуировать авто
 Gui, Add, Text, x2 x380 y320 w300 h15 , /скидка - Промокод на скидку
 Gui, Add, Text, x2 x380 y335 w300 h15 , /донат - Сайт с донатом в игру
-Gui, Add, Text, x2 x380 y350 w300 h15 , /баг - Писать про баг в ДС\
-
+Gui, Add, Text, x2 x380 y350 w300 h15 , /баг - Писать про баг в ДС
 Gui, Font, S8 c545454, Bold, Arial, 
 Gui, Add, Text, x710 y580 w100 h30 , by Stich_Allen
 Gui, Font, S8 Bold, Arial, 
 Gui, Add, Text, x10 y580 w500 h30 , Хочешь помочь с дополнением? Пиши свои пожелания мне vk.com/ne_na_chile
+
+; ------------------------------- РАБОТЫ (GPS)-------------------------------
 
 Gui 1:Font, s12 c000000 Bold, Arial
 Gui 1:Tab, 2
@@ -70,7 +70,7 @@ Gui, Add, Text, x20 y240 w230 h15 , /вту - ВТУ (Волчанск)
 Gui, Add, Text, x20 y255 w230 h15 , /октябрь - Завод "Красный Октябрь"
 Gui, Add, Text, x20 y270 w230 h15 , /табачка - Табачный завод
 
-Gui 3:Add, Text, x000 y000 w500 h40 +Center, Полезные ссылки
+; ------------------------------- Часто используемые (GPS)-------------------------------
 
 Gui 1:Font, s12 c000000 Bold, Arial
 Gui 1:Tab, 2
@@ -105,11 +105,12 @@ Gui, Add, Text, x280 y435 w220 h15 , /пк - Компьютерный клуб
 Gui, Add, Text, x280 y450 w220 h15 , /спортзал - Спортивный зал
 Gui, Add, Text, x280 y465 w220 h15 , /парашют - Прыжок с парашютом
 Gui, Add, Text, x280 y480 w220 h15 , /тир - Тир
-
 Gui, Font, S8 c545454, Bold, Arial, 
 Gui, Add, Text, x710 y580 w100 h30 , by Stich_Allen
 Gui, Font, S8 Bold, Arial, 
 Gui, Add, Text, x10 y580 w500 h30 , Хочешь помочь с дополнением? Пиши свои пожелания мне vk.com/ne_na_chile
+
+; ------------------------------- Часто используемые (БИНДЫ)-------------------------------
 
 Gui 1:Font, s12 c000000 Bold, Arial
 Gui 1:Tab, 3
@@ -132,7 +133,6 @@ Gui, Add, Text, x2 x20 y255 w250 h15 , /ремень - Ремень безопа
 Gui, Add, Text, x2 x20 y270 w250 h15 , /стрелки - Стрелочки (клавиши)
 Gui, Add, Text, x2 x20 y285 w250 h15 , /f21 - Панель игроков F2
 Gui, Add, Text, x2 x20 y300 w250 h15 , [Писать в F8] /нум - Все клавиши NumPad
-
 Gui, Font, S8 c545454, Bold, Arial, 
 Gui, Add, Text, x710 y580 w100 h30 , by Stich_Allen
 Gui, Font, S8 Bold, Arial, 
