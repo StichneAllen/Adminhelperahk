@@ -1,4 +1,13 @@
-﻿Gui, show, center h600 w800,
+#SingleInstance Force
+CheckUIA()
+{
+    if (!A_IsCompiled && !InStr(A_AhkPath, "_UIA")) {
+        Run % "*uiAccess " A_ScriptFullPath
+        ExitApp
+    }
+}
+CheckUIA()
+Gui, show, center h600 w800,
 ; ------------------------------- БИНД КЛАВИШ NUMPAD (ОСНОВНОЕ)-------------------------------
 
 Gui 1:Font, s12 c000000 Bold, Arial
